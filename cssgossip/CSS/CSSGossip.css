@@ -1,0 +1,78 @@
+@font-face{
+	font-family: 'OpenSans-Bold';
+	src: url('../Fonts/OpenSans-Bold.ttf');
+	src: url('../Fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+Body {	
+  font: Arial, 1em;
+  background-image: url("../Images/abstractPic.jpg");
+  background-size: cover;
+}
+
+H1 {
+  font-family: 'OpenSans-Bold';
+  font-size: 2em;
+}
+
+H3 {
+  font: 1.5em;
+  border-bottom: 1px, solid, black;
+}
+
+.fonts {
+	color: orange;
+	font-family: 'Comic Sans MS';  
+	font-size: 1.5em;
+	font-weight: italic, bold;
+}
+
+.colors {
+	color: red;
+	font-weight: bold;
+
+}
+
+.more {
+	color: blue;
+	text-decoration: underline;
+	border: 1px, dashed, gray;
+	background-color: #D69BBE;
+}
+
+.backgrounds {
+	color: green;
+	font-family: Trebuchet MS;
+	font-size:	1.25em;
+}
+
+article ul {
+	 list-style-image: url('../Images/peaceSign_15x15.png');
+	 
+}
+
+#outerwrapper{
+ width: 650px;
+ background-color: #E7DBF6;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+nav{
+ width: 175px;
+ background-color: #E7DBF6;
+ float: left;
+}
+
+article{
+ margin-left: 175px;
+ background-color: white;
+ padding: 10px;
+}
+
+footer { 
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
