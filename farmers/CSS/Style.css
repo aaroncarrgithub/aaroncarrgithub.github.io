@@ -1,0 +1,54 @@
+/*
+Name:Aaron Carr
+Date: 11 April, 2020
+*/
+@font-face{
+	font-family: 'quicksand-bold';
+	src: url('../Fonts/quicksand-bold-webfont.woff');
+    src: url('../Fonts/quicksand-bold-webfont.woff2') format('truetype');
+}
+Body {	
+    font: Times New Roman, Times, and serif;
+    background-color: #b8d1eb;
+    color:#000000;
+  }
+  ul{
+      list-style-type: none;
+  }
+h1{
+    font-family: 'Righteous', cursive;
+    
+}
+h2{
+    font-family: 'quicksand-bold';
+    font-weight: normal;
+    font-style: italic;
+}
+article{
+    text-align: left;
+    list-style-image: url('../Images/canva-photo-editor (2).png'); 
+}
+#outerwrapper {
+    width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+img.floatleft { 
+float:left;
+margin-right:3%;
+}
+
+.floatright {
+float: right;
+margin-left: 3%;
+}
+
+main, footer { 
+padding:10px;
+background-color: #C5A98B;
+clear: both;
+font-size:.75em;
+text-align: center;
+
+}
