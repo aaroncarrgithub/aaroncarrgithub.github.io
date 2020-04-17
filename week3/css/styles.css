@@ -1,34 +1,62 @@
-@charset "utf-8";
-body{
-    background-color: lightpink;
-    
-        
-        height: 50em;
-        margin-bottom: 10em;
-        background:Radial-Gradient(
-         #006699,#00CC00,#FF0000)
-}
-.tableStyle{
-    border-color: lightsalmon;
-    
-    background-color: lightskyblue;
-    width: auto;
-    text-align: center;
-    font-size: medium;
-    margin-left:auto; 
-    margin-right:auto;
-    
 
+/*  Name: Aaron Carr
+    Date: 04/17/2020 */
+    @font-face {
+        font-family: 'robotoregular';
+        src: url('roboto-regular-webfont.woff2') format('woff2'),
+             url('roboto-regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    body{
+    border-radius:15%;
+    background-image: url('../images/jewelry.jpg');
+    background-repeat:no-repeat;
+    background-position: top;
+    background-size: cover;
 }
-colgroup{ width: 2em; background-color: #eed;
+Main{
+    background-image: linear-gradient(#FFFFFF, #F0F9E6);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 2em;
+    font-size: 1.25em;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+}
+h2{
+    font-family: 'robotoregular';
+    font-style: italic;
+    font-size: 2em;
+}
+img{
+    float: left;
+    border-radius: 50%;
+}
+.addrightmargin{
+    margin-right: 10%;
+}
+nav ul{
+    list-style-type: none;
+    font-size: 1.5em;
+    float: none;
+}
+#outerwrapper {	
+    border-radius: 15%;
+    background: rgba(243,205,170, 0.4);
+    width: 70%;
+    align-content: center;
+    
+	
+}
+footer{
+    font-size: 1em;
+    align-content: center;
+    padding:10%;
 }
 
-thead,
-tfoot {
-    background-color: #3fa66a;
-    color: #fff;
-    width: auto;
-    text-align: center;
-    font-size: medium;
-}
-tr:nth-child(3) { background-color: burlywood }
+
