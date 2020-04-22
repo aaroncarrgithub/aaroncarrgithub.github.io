@@ -1,0 +1,93 @@
+/*  Name: Aaron Carr
+    Date: 04/17/2020 */
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('sourcesanspro-bold-webfont.woff2') format('woff2'),
+         url('sourcesanspro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}   
+*{
+    margin: 20px;
+    padding: 0;
+}
+body{
+    background-color: rgb(137, 157, 177);
+}
+.container{
+    width:100%;
+    margin: auto;
+}
+.navbar{
+    
+    width: 98%;
+    overflow: hidden;
+    height: 200px;
+    line-height:70px;
+    background: lightcyan;
+    
+}
+.logo{
+     height: 150px;
+    width: 150px;
+    float: left;
+}
+.menu{
+    float:right;
+
+}
+.menu li{
+    float: left;
+    width: 160px;
+    height: 30px;
+    line-height: 5px;
+    text-align: center;
+    list-style: none;
+}
+.menu li a{
+    color:#000;
+    text-decoration: none;
+    font-family: 'source_sans_probold';
+    text-transform: uppercase;
+    display: block;
+    
+}
+.menu li:hover{
+    background: lightblue;
+}
+.menu li a:hover{
+    color: #fff;
+}
+.center {
+  display: block;
+  height:200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  border-radius: 70%;
+}
+.article{
+    text-align: center;
+}
+p{font-family: 'Baloo Bhaina 2', cursive;
+}
+h2,h3,h4{
+    color:lightcyan;
+    font-size: 30px;
+}
+h2, ul{
+    text-align: center;
+    list-style-position: inside;
+}
+footer { 
+    padding:10px;
+    background-color: lightcyan;
+    clear: both;
+    font-size:.75em;
+    text-align: center;
+  }
+  form{
+      text-align: center;
+  }
+  
