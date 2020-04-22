@@ -1,0 +1,33 @@
+/*  Name: Aaron Carr
+    Date: 04/17/2020 */
+h2{
+    text-align: center;
+}
+h2, ul{
+    text-align: center;
+    list-style-position: inside;
+}
+table {
+    background-color: lightblue;
+    width: 500px;
+    height: 150px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  ul{
+    font-family: 'Baloo Bhaina 2', cursive;
+  }
+  
+  table, td, th {
+      text-align: center;
+    border: 1px solid black;
+  }
+th{
+    color:white
+}
+  td{
+    color: black;
+  }
+  p{font-family: 'Baloo Bhaina 2', cursive;
+  }
