@@ -1,0 +1,63 @@
+body { background-color:#f4ffe4; 
+    color:#333333;
+    font-family: Verdana, Arial, sans-serif;
+}
+#container { margin-left: auto;
+          margin-right: auto;
+          width: 80%;
+
+}			 
+h1 { background-color: #5c743d;
+  color:#ffffbe;
+  font-family: Georgia, "Times New Roman", serif;
+  background-image: url(../images/trilliumlogo.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 15px 50px 15px 50px;
+  border: 4px solid #a1a1a1;
+  text-indent: 150px;
+  font-size: 3em;
+  line-height: 250%;
+  height: 120px;
+
+}
+h2 { color:#5c743d;
+  font-family: Georgia, "Times New Roman", serif;
+}
+p { text-indent: 3em; }
+
+nav { font-weight: bold; }
+
+.companyname { color: #5c743d; 
+            font-weight: bold;
+}
+footer {  font-family: Georgia, "Times New Roman", serif;
+       font-size: .80em;
+       font-style: italic;
+       text-align: center;
+}
+@media only screen and (max-width: 641px) {
+    nav ul li{
+        display: block;
+    }
+    nav ul{
+        padding: 0em;
+        list-style-type: none;
+    }
+    h1{
+        background-image:none;
+    }
+    container{
+        background-image: url(../images/trilliumlogo.jpg);
+        border-style: solid;
+        padding: 0 .5em .5em .5em;
+    }
+}
+@media only screen and (min-width: 641px) {
+    container{
+        background: transparent;
+        background-color: white;
+        border:none;
+        background-image: url(../images/trilliumlogo.jpg);
+    }
+}
