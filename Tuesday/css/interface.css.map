@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,QAAQ;EACjB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,MAAM;EACnB,cAAc,EAAE,MAAM;EACtB,MAAM,EAAE,OAAO;EACf,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,GAAG;CAErB",
+    "sources": [
+        "interface.scss"
+    ],
+    "names": [],
+    "file": "interface.css"
+}
