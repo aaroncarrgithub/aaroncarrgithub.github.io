@@ -394,6 +394,36 @@ h1, h2, h3, h4, h5, h6 {
   background: #0076A3;
 }
 
+.grid:before, .grid:after {
+  content: '';
+  display: table;
+}
+
+.grid:after {
+  clear: both;
+}
+
+.grid .item {
+  float: left;
+  width: 32%;
+}
+
+.grid .item:nth-child(n) {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.grid .item:nth-child(3n) {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.grid img {
+  display: block;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
 .background {
   color: #EEE8D6;
   margin: 20px 0;
@@ -493,5 +523,36 @@ h1, h2, h3, h4, h5, h6 {
 .media a {
   text-decoration: none;
   color: #022933;
+}
+
+.table {
+  font-size: 1.5rem;
+  text-align: left;
+  width: 100%;
+}
+
+.table Caption {
+  font-size: 2.5rem;
+  text-align: left;
+  padding-bottom: 5px;
+}
+
+.table > thead > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > th,
+.table > tbody > tr > td,
+.table > tfoot > tr > th,
+.table > tfoot > tr > td {
+  padding: 10px;
+  border-bottom: 1px dotted #0076A3;
+}
+
+.table > thead > tr {
+  background-color: #0076A3;
+  color: #EEE8D6;
+}
+
+.table > thead > tr:hover {
+  background-color: #a32d00;
 }
 /*# sourceMappingURL=style.css.map */
