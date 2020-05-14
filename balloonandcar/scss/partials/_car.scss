@@ -1,0 +1,44 @@
+.car {
+  height: 60px;
+  width: 200px;
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  background-image: URL("../images/car.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 99;
+  animation: drive1 4s ease-in-out both,drive2 6s 6s ease-in forwards;
+
+  .wheel {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    bottom: -9px;
+    background-image: URL("../images/wheel.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: roll .5s ease infinite both;
+    &.back {
+      left: 28px;
+    }
+    &.front {
+      left: 155px;
+    }
+  }
+}
+
+@keyframes roll{
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+@keyframes drive1{
+  0%{ transform: translateX(-200px)}
+  100%{transform: translateX(290px);}
+}
+@keyframes drive2{
+  0%{ transform: translateX(290px)}
+  100%{transform: translateX(2000px);}
+}
